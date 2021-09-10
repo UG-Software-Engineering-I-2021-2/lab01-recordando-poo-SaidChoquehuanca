@@ -1,5 +1,6 @@
-class Automovil extends Vehicle {
+package cs.ing.software.lab1;
 
+public class Automovil extends Vehicle {
     public Automovil(double quantityOfFuel, double capacityOfFuel) {
         super(quantityOfFuel, capacityOfFuel);
         this.useByKm = 0.9;
@@ -15,14 +16,13 @@ class Automovil extends Vehicle {
 
     }
 
-    public void Trip(float kilometers) {
+    public String Trip(float kilometers) {
         if(this.useByKm * kilometers > this.quantityOfFuel){
-            System.out.println("Automovil necesita reabastecimiento de combustible");
-            return;
+            return "Automovil necesita reabastecimiento de combustible";
         }
 
         this.quantityOfFuel = this.quantityOfFuel - this.useByKm * kilometers;
-        System.out.println(("Automovil viajó " + kilometers + " km y aún tiene" + this.quantityOfFuel + " de combustible"));
+        return ("Automovil viajó " + kilometers + " km y aún tiene" + this.quantityOfFuel + " de combustible");
     }
 
 }

@@ -1,3 +1,7 @@
+package cs.ing.software.lab1;
+
+import com.beust.jcommander.IStringConverter;
+
 class Truck extends Vehicle {
 
     public Truck(double quantityOfFuel, double capacityOfFuel) {
@@ -16,13 +20,12 @@ class Truck extends Vehicle {
 
     }
 
-    public void Trip(float kilometers) {
+    public String Trip(float kilometers) {
         if(this.useByKm * kilometers > this.quantityOfFuel){
-            System.out.println("Camión necesita reabastecimiento de combustible");
-            return;
+            return "Camión necesita reabastecimiento de combustible";
         }
 
         this.quantityOfFuel = this.quantityOfFuel - this.useByKm * kilometers;
-        System.out.println(("Camión viajó " + kilometers + " km y aún tiene" + this.quantityOfFuel + " de combustible"));
+        return "Camión viajó " + kilometers + " km y aún tiene" + this.quantityOfFuel + " de combustible";
     }
 }

@@ -1,3 +1,5 @@
+package cs.ing.software.lab1;
+
 public class Vehicle {
     double quantityOfFuel = 0.0;
     double capacityOfFuel = 0;
@@ -34,8 +36,8 @@ public class Vehicle {
 
     public void supplying(double fuel) {}
 
-
-    public void Trip(float kilometers) {}
+    public String Trip(float kilometers){return "";}
 
 
 }
+

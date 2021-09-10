@@ -16,23 +16,23 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I™
-Vehiclejava.lang.Object3
-getCapacityOfFuel()Vehicle#getCapacityOfFuel()D!
+hashCode()java.lang.Object#hashCode()Iç
+cs.ing.software.lab1.Vehiclejava.lang.ObjectH
+getCapacityOfFuel()1cs.ing.software.lab1.Vehicle#getCapacityOfFuel()D6
 
-<init>(DD)Vehicle#<init>(DD)V5
-setQuantityOfFuel(D)Vehicle#setQuantityOfFuel(D)V%
-getUseByKm()Vehicle#getUseByKm()D
-Trip(F)Vehicle#Trip(F)V%
-supplying(D)Vehicle#supplying(D)V'
-setUseByKm(D)Vehicle#setUseByKm(D)V5
-setCapacityOfFuel(D)Vehicle#setCapacityOfFuel(D)V3
-getQuantityOfFuel()Vehicle#getQuantityOfFuel()Dq
-TruckVehicle
+<init>(DD)(cs.ing.software.lab1.Vehicle#<init>(DD)VJ
+setQuantityOfFuel(D)2cs.ing.software.lab1.Vehicle#setQuantityOfFuel(D)V:
+getUseByKm()*cs.ing.software.lab1.Vehicle#getUseByKm()DA
+Trip(F)6cs.ing.software.lab1.Vehicle#Trip(F)Ljava/lang/String;:
+supplying(D)*cs.ing.software.lab1.Vehicle#supplying(D)V<
+setUseByKm(D)+cs.ing.software.lab1.Vehicle#setUseByKm(D)VJ
+setCapacityOfFuel(D)2cs.ing.software.lab1.Vehicle#setCapacityOfFuel(D)VH
+getQuantityOfFuel()1cs.ing.software.lab1.Vehicle#getQuantityOfFuel()DÎ
+cs.ing.software.lab1.Truckcs.ing.software.lab1.Vehicle4
 
-<init>(DD)Truck#<init>(DD)V
-Trip(F)Truck#Trip(F)V#
-supplying(D)Truck#supplying(D)V(
+<init>(DD)&cs.ing.software.lab1.Truck#<init>(DD)V?
+Trip(F)4cs.ing.software.lab1.Truck#Trip(F)Ljava/lang/String;8
+supplying(D)(cs.ing.software.lab1.Truck#supplying(D)V(
 java.lang.Appendablejava.lang.Object+
 java.lang.AutoCloseablejava.lang.Object>
 java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
@@ -109,12 +109,12 @@ println(C)java.io.PrintStream#println(C)VK
 1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)VU
 <init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
 println([C) java.io.PrintStream#println([C)Vã
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)VÅ
-	AutomovilVehicle#
+9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V˚
+cs.ing.software.lab1.Automovilcs.ing.software.lab1.Vehicle8
 
-<init>(DD)Automovil#<init>(DD)V
-Trip(F)Automovil#Trip(F)V'
-supplying(D)Automovil#supplying(D)VL
-mainjava.lang.Object
-main()main#main()V
-<init>()main#<init>()V
+<init>(DD)*cs.ing.software.lab1.Automovil#<init>(DD)VC
+Trip(F)8cs.ing.software.lab1.Automovil#Trip(F)Ljava/lang/String;<
+supplying(D),cs.ing.software.lab1.Automovil#supplying(D)Vã
+cs.ing.software.lab1.mainjava.lang.Object+
+main()!cs.ing.software.lab1.main#main()V/
+<init>()#cs.ing.software.lab1.main#<init>()V
